@@ -7,3 +7,7 @@ test("takes a string and returns it reversed", () => {
 test("takes a string and returns it reversed", () => {
   expect(reverseString("abc de ;) 🌿")).toBe("🌿 ); ed cba");
 });
+
+test("takes a string and returns it reversed", () => {
+    expect(reverseString(" ")).toBe(" ");
+  });
