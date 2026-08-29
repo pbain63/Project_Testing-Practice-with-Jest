@@ -19,3 +19,7 @@ test("divides two numbers correctly", () => {
   expect(calculator.divide(12, 4)).toBe(3);
   expect(calculator.divide(13, -2)).toBe(-6.5);
 });
+
+test("throws an error when dividing by zero", () => {
+  expect(() => calculator.divide(12, 0)).toThrow(Error);
+});
