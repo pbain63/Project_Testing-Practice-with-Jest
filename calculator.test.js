@@ -10,3 +10,7 @@ test("subtracts two number correctly", () => {
   expect(calculator.subtract(-3, -9)).toBe(6);
 });
 
+test("multiplies two numbers correctly", () => {
+  expect(calculator.multiply(5, -7)).toBe(-35);
+  expect(calculator.multiply(8, 0)).toBe(0);
+});
