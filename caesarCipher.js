@@ -1,9 +1,15 @@
 function caesarCipher(string, shiftFactor) {
-  const alphabet = "abcdefghijklmnopqrstuvwxyz";
+  const lowercaseAlphabet = "abcdefghijklmnopqrstuvwxyz";
+  const uppercaseAlphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
   return string
     .split("")
     .map((character) => {
+      let alphabet = lowercaseAlphabet;
+
+      if (uppercaseAlphabet.includes(character)) {
+        alphabet = uppercaseAlphabet;
+      }
       const index = alphabet.indexOf(character);
 
       if (index === -1) {
