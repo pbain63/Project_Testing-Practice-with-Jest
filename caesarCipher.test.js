@@ -16,4 +16,12 @@ describe("caesarCipher", () => {
   test("leaves punctuation and spaces unchanged", () => {
     expect(caesarCipher("Hello, World!", 3)).toBe("Khoor, Zruog!");
   });
+
+  test("empty string returns empty string", () => {
+    expect(caesarCipher("", 3)).toBe("");
+  });
+
+  test("leaves non-alphabetic characters unchanged", () => {
+    expect(caesarCipher("123! @#", 3)).toBe("123! @#");
+  });
 });
