@@ -12,4 +12,8 @@ describe("caesarCipher", () => {
   test("preserves the original letter case", () => {
     expect(caesarCipher("HeLLo", 3)).toBe("KhOOr");
   });
+
+  test("leaves punctuation and spaces unchanged", () => {
+    expect(caesarCipher("Hello, World!", 3)).toBe("Khoor, Zruog!");
+  });
 });
