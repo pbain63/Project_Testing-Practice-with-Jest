@@ -18,4 +18,13 @@ describe("analyzeArray", () => {
       length: 6,
     });
   });
+
+  test("returns the average, minimum, maximum and length", () => {
+    expect(analyzeArray([-5, -2, -10, -4])).toEqual({
+      average: -5.25,
+      min: -10,
+      max: -2,
+      length: 4,
+    });
+  });
 });
