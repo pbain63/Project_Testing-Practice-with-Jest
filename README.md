@@ -12,11 +12,11 @@ JavaScript functions and to become more comfortable with test driven development
 
 This project implements and tests five JavaScript exercises:
 
-- **Capitalize** — Capitalizes the first character of a string.
-- **Reverse String** — Reverses a given string.
-- **Calculator** — Performs basic arithmetic operations.
-- **Caesar Cipher** — Shifts alphabetic characters by a specified amount while preserving case and punctuation.
-- **Analyze Array** — Analyzes an array of numbers and returns its average, minimum, maximum, and length.
+- **Capitalize**: Capitalizes the first character of a string.
+- **Reverse String**: Reverses a given string.
+- **Calculator**: Performs basic arithmetic operations.
+- **Caesar Cipher**: Shifts alphabetic characters by a specified amount while preserving case and punctuation.
+- **Analyze Array**: Analyzes an array of numbers and returns its average, minimum, maximum, and length.
 
 Each implementation has a corresponding Jest test file.
 
@@ -244,10 +244,10 @@ The project uses unit testing to verify individual functions independently.
 
 For each function, the tests focus on:
 
-1. **Expected behavior** — Does the function return the correct result for normal input?
-2. **Edge cases** — Does the function behave correctly with unusual or boundary input?
-3. **Different input scenarios** — Does the function work correctly with multiple valid inputs?
-4. **Requirements from the assignment** — Does the implementation satisfy the specified behavior?
+1. **Expected behavior**: Does the function return the correct result for normal input?
+2. **Edge cases**: Does the function behave correctly with unusual or boundary input?
+3. **Different input scenarios**: Does the function work correctly with multiple valid inputs?
+4. **Requirements from the assignment**: Does the implementation satisfy the specified behavior?
 
 The goal is not simply to make the tests pass, but to understand how tests can define and verify the expected behavior of individual pieces of code.
 
