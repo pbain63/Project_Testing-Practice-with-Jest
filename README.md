@@ -6,6 +6,8 @@ A JavaScript testing practice project built with **Jest** as part of
 The purpose of this project is to practice writing unit tests for
 JavaScript functions and to become more comfortable with test driven development (TDD), assertions, test cases, and handling edge cases.
 
+---
+
 ## About the Project
 
 This project implements and tests five JavaScript exercises:
@@ -19,6 +21,8 @@ This project implements and tests five JavaScript exercises:
 Each implementation has a corresponding Jest test file.
 
 The project follows the assignment requirements from [Project: Testing Practice](https://www.theodinproject.com/lessons/node-path-javascript-testing-practice).
+
+---
 
 ## Learning Objectives
 
@@ -35,6 +39,8 @@ Through this project, I practiced:
 - Understanding the fundamentals of Test Driven Development (TDD)
 - Working with npm scripts and development dependencies
 
+---
+
 ## Technologies Used
 
 - **JavaScript (ES6+)**
@@ -43,6 +49,8 @@ Through this project, I practiced:
 - **npm**
 - **Git**
 - **GitHub**
+
+---
 
 ## Project Structure
 
@@ -80,6 +88,8 @@ Each function has a dedicated implementation file and a corresponding test file:
 | `analyzeArray.js`  | `analyzeArray.test.js`  |
 
 This one to one structure keeps the relationship between production code and its tests easy to understand.
+
+---
 
 ## Functions Tested
 
@@ -163,6 +173,8 @@ analyzeArray([1, 8, 3, 4, 2, 6]);
 // }
 ```
 
+---
+
 ## Getting Started
 
 ### Prerequisites
@@ -200,6 +212,8 @@ cd Project_Testing-Practice-with-Jest
 npm install
 ```
 
+---
+
 ## Running the Tests
 
 Run the complete Jest test suite with:
@@ -222,6 +236,8 @@ PASS  ./analyzeArray.test.js
 
 The exact output may vary depending on the Jest version and the number of test cases.
 
+---
+
 ## Testing Approach
 
 The project uses unit testing to verify individual functions independently.
@@ -234,6 +250,8 @@ For each function, the tests focus on:
 4. **Requirements from the assignment** — Does the implementation satisfy the specified behavior?
 
 The goal is not simply to make the tests pass, but to understand how tests can define and verify the expected behavior of individual pieces of code.
+
+---
 
 ## What I Learned
 
@@ -251,6 +269,8 @@ This project helped me develop a better understanding of:
 
 Most importantly, I learned that testing is not only about checking whether code works. Good tests also document **how a function is expected to behave**.
 
+---
+
 ## Assignment
 
 This project was completed as part of:
@@ -260,11 +280,15 @@ This project was completed as part of:
 Assignment:
 [https://www.theodinproject.com/lessons/node-path-javascript-testing-practice](https://www.theodinproject.com/lessons/node-path-javascript-testing-practice)
 
+---
+
 ## Links
 
 - **Repository:** [https://github.com/pbain63/Project_Testing-Practice-with-Jest](https://github.com/pbain63/Project_Testing-Practice-with-Jest)
 - **The Odin Project:** [https://www.theodinproject.com/](https://www.theodinproject.com/)
 - **Jest:** [https://jestjs.io/](https://jestjs.io/)
+
+---
 
 ## Author
 
@@ -273,6 +297,10 @@ Assignment:
 - GitHub: [https://github.com/pbain63](https://github.com/pbain63)
 - LinkedIn: [https://www.linkedin.com/in/prodipbain](https://www.linkedin.com/in/prodipbain)
 
+---
+
 ## License
 
 This project was created for educational purposes as part of The Odin Project curriculum.
+
+---
